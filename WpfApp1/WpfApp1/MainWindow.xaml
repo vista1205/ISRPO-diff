@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="247.184" Width="417.907" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="63*"/>
+            <ColumnDefinition Width="347*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="LogText" HorizontalAlignment="Left" Height="23" Margin="140.998,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Label Content="Логин" HorizontalAlignment="Left" Margin="29.998,33,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="29.998,85,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Button x:Name="AvtBtn" Content="Авторизация" HorizontalAlignment="Left" Margin="106.998,154,0,0" VerticalAlignment="Top" Width="98" Grid.Column="1" Click="AvtBtn_Click"/>
+        <PasswordBox x:Name="PasText" Grid.Column="1" HorizontalAlignment="Left" Margin="141,93,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
